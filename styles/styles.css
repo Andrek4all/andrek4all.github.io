@@ -1,0 +1,82 @@
+body {
+	font-family: "Montserrat", sans-serif;
+	background-color: #e5e5e5;
+}
+a {
+	text-decoration: none;
+}
+a:link,
+a:visited {
+	color: black;
+}
+a:hover {
+	color: darkred;
+}
+.main {
+	display: flex;
+	width: 1200px;
+	flex-direction: row-reverse;
+	margin: 0 auto;
+}
+.proj-list {
+	display: flex;
+}
+.li-num p {
+	padding: 0 0.5em;
+	font-weight: 700;
+}
+.main-info {
+	padding-left: 88px;
+	padding-top: 52px;
+	background-color: white;
+}
+.main-info > div {
+	margin-bottom: 40px;
+}
+aside {
+	background-color: #1e2939;
+	color: white;
+	padding-top: 40px;
+}
+aside div {
+	margin-left: 40px;
+}
+h1 {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 45px;
+	line-height: 55px;
+}
+h3 {
+	margin: none;
+	padding: none;
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 27px;
+}
+h4 {
+	font-size: 16px;
+	font-weight: 700;
+	margin: 1em 0;
+}
+h5 {
+	font-size: 14px;
+	font-weight: 700;
+}
+h6 {
+	margin: 0 0;
+	font-weight: 400;
+}
+
+p,
+li {
+	font-size: 14px;
+	font-weight: 400;
+}
+
+span {
+	color: #fb6d3a;
+}
+.user-info {
+	width: 400px;
+}
