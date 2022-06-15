@@ -15,7 +15,7 @@ body {
 }
 .main-info > div {
 	margin-bottom: 40px;
-	width: 800px;
+	width: 829px;
 }
 .main-info > div.education {
 	margin-bottom: 100px;
@@ -139,6 +139,10 @@ div.projects {
 	color: #a8a8a8;
 	margin-bottom: 8px;
 	margin-top: 10px;
+}
+.work h6 > span,
+.education h6 > span {
+	color: #000000;
 }
 .work ul {
 	padding: 0;
