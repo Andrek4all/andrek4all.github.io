@@ -76,12 +76,14 @@ div.projects {
 	margin-left: 17px;
 	padding-left: 10px;
 }
-.projects li > span {
+.black {
+	color: #000000;
+}
+.bold {
 	font-style: normal;
 	font-weight: 700;
 	font-size: 14px;
 	line-height: 24px;
-	color: #000000;
 }
 .projects li::marker {
 	font-style: normal;
@@ -101,7 +103,7 @@ div.projects {
 .projects a:hover {
 	color: darkred;
 }
-.work span {
+.colorspan {
 	color: #fb6d3a;
 }
 .work > div {
@@ -140,9 +142,9 @@ div.projects {
 	margin-bottom: 8px;
 	margin-top: 10px;
 }
-.work h6 > span {
+/* .work h6 > span {
 	color: #000000;
-}
+} */
 .work ul {
 	padding: 0;
 	margin: 0;
@@ -164,10 +166,53 @@ div.projects {
 	line-height: 24px;
 	color: #595959;
 }
-
-.education span {
+/* .additional span {
 	color: #fb6d3a;
+} */
+.additional > div {
+	padding: 0;
+	margin: 0;
+	margin-top: 15px;
+	margin-bottom: 5px;
 }
+
+.additional h3 {
+	padding: 0;
+	margin: 0;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 27px;
+	color: #000000;
+	margin-bottom: 12px;
+}
+.additional h4 {
+	padding: 0;
+	margin: 0;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 20px;
+	color: #000000;
+}
+.additional h6 {
+	padding: 0;
+	margin: 0;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 15px;
+	color: #a8a8a8;
+	margin-bottom: 8px;
+	margin-top: 10px;
+}
+/* .additional h6 > span {
+	color: #000000;
+} */
+
+/* .education span {
+	color: #fb6d3a;
+} */
 .education h3 {
 	padding: 0;
 	margin: 0;
@@ -206,9 +251,9 @@ div.projects {
 	line-height: 15px;
 	color: #a8a8a8;
 }
-.education h6 span {
+/* .education h6 span {
 	color: #000000;
-}
+} */
 
 aside {
 	background-color: #1e2939;
@@ -257,7 +302,7 @@ aside li::marker {
 .contacts p {
 	margin: 0 0;
 }
-.contacts span {
+.contact-type {
 	font-style: normal;
 	font-weight: 700;
 	font-size: 14px;
